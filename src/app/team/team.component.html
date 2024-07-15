@@ -1,0 +1,34 @@
+<div class="w-full h-[30em]  flex justify-center items-center flex-col">
+
+    <h1 class="text-2xl font-bold m-2">NOTRE ÉQUIPE</h1>
+    <hr class="w-[60%] m-2">
+    <h1 class="m-1">Rencontrer notre équipe </h1>
+    <div class=" w-full h-[80%]  flex justify-center items-center gap-3 flex-wrap">
+        @for (item of team; track $index) {
+            <div class="w-1/6 h-4/5 border-2">
+                <app-card-team></app-card-team>
+            </div>
+        }
+    </div>
+
+
+
+</div>
+
+<div class="w-full h-[10em] bg-gray-300 flex justify-center items-center flex-col m-3">
+    <h1 class="text-2xl font-bold m-2">NOS PARTENAIRES</h1>
+    <hr class="w-[60%] m-2">
+    <h1 class="m-1">Nous suivre sur les réseaux sociaux </h1>
+</div>
+
+<div class="w-full h-[10em] bg-gray-300 flex justify-center items-center flex-col m-3">
+    <h1 class="text-2xl font-bold m-2">NOUS SUIVRE</h1>
+    <hr class="w-[60%] m-2">
+    <h1 class="m-1">Ceux qui croix en nous </h1>
+    <div class="w-2/5 h-2/5  flex justify-center items-center gap-6">
+        <div class="w-[7%] h-4/5 ">1</div>
+        <div class="w-[7%] h-4/5 ">2</div>
+        <div class="w-[7%] h-4/5 ">3</div>
+        <div class="w-[7%] h-4/5 ">4</div>
+    </div>
+</div>

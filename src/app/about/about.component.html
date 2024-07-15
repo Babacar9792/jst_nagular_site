@@ -1,0 +1,15 @@
+<div class="w-full h-[25em]  flex flex-col items-center mt-5">
+    <h1 class="text-center font-semi text-xl">A PROPOS DE NOUS</h1>
+    <hr class="w-3/5">
+    <h6 class="text-center text-xs m-2">Quelques informations</h6>
+    <div class="w-full h-4/5 flex justify-center items-center gap-4">
+        @for (item of dataDetails; track $index) {
+        <div class="w-[15%] h-full ">
+
+                <app-card [details]=item ></app-card>
+            </div>
+        }
+        
+    </div>
+
+</div>
